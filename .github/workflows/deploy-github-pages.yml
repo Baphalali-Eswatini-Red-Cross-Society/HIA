@@ -1,9 +1,4 @@
 env:
-  # ###########################################################################
-  # FEATURES:
-  # ###########################################################################
-  #
-  # For offline support: (set to 'true' / 'false')
   NG_USE_SERVICE_WORKER: 'true'
   #
   # Use the "Offers" content-type: (set to 'true' / 'false')
