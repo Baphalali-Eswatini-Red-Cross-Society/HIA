@@ -42,13 +42,13 @@ env:
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
   TXT_APP_NAME: 'Baphalali Red Cross Society'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: ''
+  TXT_APP_LOGO_URL: 'https://redcross.org.sz/wp-content/uploads/2024/07/iso2_sz.jpg'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: ''
+  TXT_MAIN_PAGE_HEADER: 'Hi! Please edit me'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
-    \n
+    \n This web app is made to give helpful information about frequently asked questions (FAQ). Please select your FAQ below
     \n
   #
   # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
@@ -66,8 +66,10 @@ env:
   #
   # An (optional) footer at the bottom of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_FOOTER: >-
-    **Helpful Information**  \n
-    \n
+    **Urgent Matters?**  \n
+    \n Toll free line: 7602
+    \n Speak out email: speakout@redcross.org.sz
+    \n Link to our website: hhtps://redcross.org.sz/
   #
   # Contents of the 'error-page'
   #
